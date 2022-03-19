@@ -41,8 +41,13 @@
 </script>
 
 <style scoped>
+
+  
 .bottom-navigation {
-   align-items: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 .bottom-navigation a{
     text-decoration : none;
