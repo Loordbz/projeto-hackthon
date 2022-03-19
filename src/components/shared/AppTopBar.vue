@@ -1,15 +1,34 @@
 <template>
-    <div class="geral">
-        <v-app-bar app color="yellow" dark>
+    <div class="app-top-bar">
+        <v-app-bar app color="primary" dark>
             <v-app-bar-nav-icon @click="drawer = true" color="black"></v-app-bar-nav-icon>
-            <v-toolbar-title >
-            <h1>Desafio Hackthon 2022</h1>
+            <v-toolbar-title>
+            Desafio Hackthon 2022
             </v-toolbar-title>
+             <v-spacer />
+
+    <v-tooltip v-if="!$vuetify.theme.dark" bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn v-on="on" v-bind="attrs" color="primary" small fab @click="darkMode">
+            <v-icon class="ml-1">mdi-moon-waning-crescent</v-icon>
+          </v-btn>
+        </template>
+        <span>Dark Mode Off</span>
+      </v-tooltip>  
+
+       <v-tooltip v-else bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn v-on="on" v-bind="attrs"  small fab @click="darkMode">
+            <v-icon>mdi-white-balance-sunny</v-icon>
+          </v-btn>
+        </template>
+        <span>Dark Mode On</span>
+      </v-tooltip>
         </v-app-bar>
 
         <v-navigation-drawer v-model="drawer" absolute temporary>
             <v-list nav dense>
-            <v-list-item-group v-model="group" active-class="yellow--text text--lighten-2">
+            <v-list-item-group v-model="group" active-class="secondary">
 
             <router-link to="/">
                 <v-list-item>
@@ -36,6 +55,11 @@ export default {
       drawer: false,
       group: null,
     }
+  },
+  methods: {
+      darkMode() {
+      this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
+    }
   }
 };
 </script>
@@ -44,4 +68,8 @@ export default {
 h1 {
     color:black;
 }
+
+.app-top-bar a{
+      text-decoration: none;
+    }
 </style>
