@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Inicio from '../views/Inicio.vue'
+import TelaLogin from '../views/TelaLogin.vue'
 import MeusProdutos from '../views/MeusProdutos.vue'
 import formDoVendedor from '../components/formDoVendedor.vue'
 import CadVendedor from '../components/CadVendedor.vue'
@@ -12,6 +13,11 @@ const routes = [
     path: '/',
     name: 'Início',
     component: Inicio
+  },
+  {
+    path: '/login',
+    name: 'TelaLogin',
+    component: TelaLogin
   },
   {
     path: '/produtos',
