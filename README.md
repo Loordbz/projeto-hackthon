@@ -1,3 +1,5 @@
+# Projeto Conexão Doce
+
 ## Descrição
 Nosso projeto tem como objetivo unir quem produz ovos de páscoa caseiros e compradores que querem aproveitar essas delícias sem gastar muito. Por meio da nossa aplicação, compradores podem achar os ovos de páscoa que desejam e o endereço dos vendedores. Além disso, vendedores que querem disponibilizar seus produtos podem cadastrá-los na nossa plataforma.
 
