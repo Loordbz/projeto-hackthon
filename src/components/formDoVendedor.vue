@@ -5,12 +5,9 @@
             <img class="imagem" src="https://media.istockphoto.com/photos/pile-or-group-of-multi-colored-and-different-sizes-of-colourful-foil-picture-id1306996475?b=1&k=20&m=1306996475&s=170667a&w=0&h=1ux0DQXQ6qYzyhlr0Blo2i6UVICzmG9IIv5UDUENrKk="/>
             <v-card>
 
-                <v-card-text class="mt-12">
+                <v-card-text class="mt-12" color="primary">
 
-                        <h1
-
-                          class="text-center display-1 teal--text text--accent-3"
-
+                        <h1 class="text-center display-1"
                         >Formulário de cadastro de produto</h1>
                         <p class="p2">Preencha o seguinte formulário para adicionar um produto a sua loja.</p>
 
@@ -94,6 +91,10 @@ export default {
     display: block;
     margin: 0 auto;
     border-radius: 5px;
+}
+
+h1{
+    color: #BA68C8
 }
 
 </style>
