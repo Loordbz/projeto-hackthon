@@ -3,7 +3,7 @@
         <v-app-bar app color="primary" dark>
             <v-app-bar-nav-icon @click="drawer = true" color="black"></v-app-bar-nav-icon>
             <v-toolbar-title>
-            Desafio Hackthon 2022
+            Conexão Doce
             </v-toolbar-title>
              <v-spacer />
 
