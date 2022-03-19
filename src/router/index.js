@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Inicio from '../views/Inicio.vue'
 import MeusProdutos from '../views/MeusProdutos.vue'
 import formDoVendedor from '../components/formDoVendedor.vue'
+import CadVendedor from '../components/CadVendedor.vue'
 
 Vue.use(VueRouter)
 
@@ -17,12 +18,16 @@ const routes = [
     name: 'Produtos',
     component: MeusProdutos
   },
-
   {
     path: '/formulario',
     name: 'Formulario',
     component: formDoVendedor
-  }
+  },
+  {
+    path: '/cadastro',
+    name: 'Cadastro',
+    component: CadVendedor
+  },
 ]
 
 const router = new VueRouter({
