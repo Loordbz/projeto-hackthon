@@ -71,10 +71,7 @@ methods: {
      sucesso() {
         alert("Produto cadastrado com sucesso!");
         this.form.nome = ""
-        },
-    limpar(){
-        this.nome = ""
-    }
+        }
         }
     }
     
