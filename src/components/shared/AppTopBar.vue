@@ -41,7 +41,7 @@
                 </v-list-item>
             </router-link>
 
-            <router-link to="/">
+            <router-link to="/cadastro">
                 <v-list-item>
                 <v-list-item-icon>
                     <v-icon>mdi-plus</v-icon>
