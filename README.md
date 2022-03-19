@@ -1,3 +1,3 @@
-#Projeto Hackthon
+# Projeto Hackthon
 
-#Projeto escolhido: ovo de Páscoa
+# Projeto escolhido: ovo de Páscoa
