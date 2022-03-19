@@ -41,13 +41,13 @@
                 </v-list-item>
             </router-link>
 
-            <router-link to="/cadastro">
+            <router-link to="/sobre">
                 <v-list-item>
                 <v-list-item-icon>
-                    <v-icon>mdi-plus</v-icon>
+                    <v-icon>mdi-information</v-icon>
                 </v-list-item-icon>
                 <v-list-item-title>
-                    Cadastre-se
+                    Sobre o Projeto
                 </v-list-item-title>
                 </v-list-item>
             </router-link>

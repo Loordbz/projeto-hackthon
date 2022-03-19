@@ -5,6 +5,7 @@ import TelaLogin from '../views/TelaLogin.vue'
 import MeusProdutos from '../views/MeusProdutos.vue'
 import formDoVendedor from '../components/formDoVendedor.vue'
 import CadVendedor from '../components/CadVendedor.vue'
+import PageSobre from '../views/PageSobre.vue'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ const routes = [
     path: '/cadastro',
     name: 'Cadastro',
     component: CadVendedor
+  },
+  {
+    path: '/sobre',
+    name: 'PageSobre',
+    component: PageSobre
   },
 ]
 
