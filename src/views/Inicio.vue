@@ -1,6 +1,6 @@
 <template>
   <div class="total">
-    <v-card class="carrosel" color="black" dark>
+    <div class="carrosel">
       <v-container>
         <h3 class="text-h3 text-center mb-2 mt-5"> 🐰Bem-vindo🐰</h3>
       </v-container >
@@ -8,12 +8,12 @@
             <v-carousel-item  v-for="(item,i) in items" :key="i" :src="item.src">
             </v-carousel-item>
         </v-carousel>
-    </v-card>
-    <v-card class="texto" color="black" dark>
-      <p> Aqui você consegue localizar vendedores de Ovos de Páscoa caseiros por todo o Brasil.
-          Se você está interessado em adquirir ovos de páscoa clique em sou comprador, caso queira
-          vender o seu próprio ovo de páscoa clique em sou vendedor.</p>
-    </v-card>
+    </div>
+    <p class="texto">
+      Aqui você consegue localizar vendedores de Ovos de Páscoa caseiros por todo o Brasil.
+      Se você está interessado em adquirir ovos de páscoa clique em sou comprador, caso queira
+      vender o seu próprio ovo de páscoa clique em sou vendedor.
+    </p>
     <div class="botoes">
       <button role = "button" class="souVendedor">
           Sou vendendor
@@ -70,9 +70,9 @@ export default {
 </script>
 
 <style scoped>
-.total
+:root
 {
-  background-color:black;
+  --primary: #BA68C8;
 }
 .tamanho-img
 {
@@ -99,7 +99,7 @@ export default {
 }
 .Vendas /*propriedades botão Vendas*/
 {
-  background-color: white;
+  background-color: #BA68C8;
   border: 0px;
   border-radius: 4px;
   color:black;
@@ -110,14 +110,14 @@ export default {
 }
 .Vendas:hover /*propriedades botão Vendas ao passar o mouse*/
 {
-    background: linear-gradient(rgba(255, 255, 255, 0.750), rgba(255,255,255,.50)100%);
+    background: linear-gradient((#BA68C8, #ba68c89b)100%);
     border: 2px solid rgba(255, 255, 255, 0.7);
     transition: 0.3s;
 }
 
 .souVendedor /*propriedades botão souVendedor*/
 {
-    background-color: white;
+    background-color: #BA68C8;
     border: 0px;
     border-radius: 4px;
     color:black;
@@ -128,7 +128,7 @@ export default {
 }
 .souVendedor:hover /*propriedades botão souVendedor ao passar o mouse*/
 {
-    background: linear-gradient(rgba(255, 255, 255, 0.750), rgba(255,255,255,.50)100%);
+    background: linear-gradient((#BA68C8, #ba68c89b)100%);
     border: 2px solid rgba(255, 255, 255, 0.7);
     transition: 0.3s;
 }
