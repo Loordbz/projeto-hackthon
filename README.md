@@ -28,3 +28,6 @@ $ npm run serve
 
 # O servidor inciará na porta:8080 - acesse <http://localhost:8080>
 ```
+### Desenvolvedores
+| [<img src="https://avatars.githubusercontent.com/u/92654776?v=4" width=115><br><sub>Leonardo Berto</sub>](https://github.com/Loordbz) |  [<img src="https://avatars.githubusercontent.com/u/81123220?v=4" width=115><br><sub>Matheus Santos</sub>](https://github.com/Matheus2106) |  [<img src="https://avatars.githubusercontent.com/u/101677922?v=4" width=115><br><sub>Rodrigo Cesar Costa</sub>](https://github.com/rodrigocesarcosta) | [<img src="https://avatars.githubusercontent.com/u/18452377?s=400&u=9541c5faa6eb97238489ce8c47fe92ee8c8d1f5e&v=4" width=115><br><sub>Diego Resende</sub>](https://github.com/wdresende) | [<img src="https://avatars.githubusercontent.com/u/91434852?v=4" width=115><br><sub>Carolina Seixas</sub>](https://github.com/carolinaseixas) | [<img src="https://avatars.githubusercontent.com/u/47402216?v=4" width=115><br><sub>Idilene Brito</sub>](https://github.com/idilenebrito) 
+| :---: | :---: | :---: | :---: | :---: | :---: |
