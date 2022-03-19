@@ -97,7 +97,7 @@ export default {
 .botoes /*Propriedades do botoes*/
 {   
   display: flex;
-  margin-top: 40px;
+  padding-bottom: 80px;
   justify-content: space-around;
 
 }

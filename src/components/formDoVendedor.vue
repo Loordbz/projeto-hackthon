@@ -107,4 +107,11 @@ methods: {
 h1 {
   color: #ba68c8;
 }
+
+.botao
+{
+  margin-bottom: 35px;
+}
+
 </style>
+
