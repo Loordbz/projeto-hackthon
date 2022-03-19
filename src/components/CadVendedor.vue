@@ -107,6 +107,7 @@
         
         <v-divider class="mt-12"></v-divider>
         <v-card-actions>
+          <router-link to="/login">
           <v-btn
             color="primary"
             text
@@ -114,6 +115,7 @@
           >
             Cadastrar
           </v-btn>
+          </router-link>
         </v-card-actions>
       </v-card>
     </v-col>

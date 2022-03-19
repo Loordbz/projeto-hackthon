@@ -31,7 +31,9 @@
                         </v-form>
                       </v-card-text>
                       <div class="text-center mt-3">
+                        <router-link to="/formulario">
                         <v-btn rounded color="primary" dark>Logar</v-btn>
+                        </router-link>
                       </div>
                     </v-col>
                     <v-col cols="12" md="4">
@@ -41,9 +43,11 @@
                           class="text-center text-cadastrar mt-12 title"
                         >Entre com seus dados pessoais e cadastre seus produtos</h5>
                       </v-card-text>
+                      <router-link to="/cadastro">
                       <div class="text-center btn-cadastrar">
                         <v-btn rounded outlined dark @click="step++" color="primary">Cadastre-se</v-btn>
                       </div>
+                      </router-link>
                     </v-col>
                   </v-row>
                 </v-window-item>

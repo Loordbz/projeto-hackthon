@@ -15,12 +15,16 @@
       vender o seu próprio ovo de páscoa clique em sou vendedor.
     </p>
     <div class="botoes">
+      <router-link to="/login">
       <button role = "button" class="souVendedor">
           Sou vendendor
       </button>
+      </router-link>
+      <router-link to="/produtos">
       <button role = "button" class="Vendas">
           Sou comprador
       </button>
+      </router-link>
       
     </div>
   </div>

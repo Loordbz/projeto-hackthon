@@ -15,16 +15,16 @@
 
     </router-link>
 
-    <router-link to="/"> <!-- falta colocar a navegação-->
+    <router-link to="/produtos"> <!-- falta colocar a navegação-->
       <v-btn class="botao">
         <span>Ovos de Pascoa</span>
         <v-icon>mdi-egg-easter</v-icon>
       </v-btn>
     </router-link>
  
-    <router-link to="/"> <!-- falta colocar a navegação-->
+    <router-link to="/login"> <!-- falta colocar a navegação-->
       <v-btn class="botao">
-        <span>Perfil</span>
+        <span>Login</span>
         <v-icon>mdi-account</v-icon>
       </v-btn>
     </router-link>
